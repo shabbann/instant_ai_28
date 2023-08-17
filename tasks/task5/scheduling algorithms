@@ -1,0 +1,14 @@
+First Come, First Served (FCFS) is a type of scheduling algorithm used by operating systems and networks to efficiently and automatically execute queued tasks, 
+processes and requests by the order of their arrival First Come, First Served is one of the most efficient and autonomous types of scheduling algorithm because 
+it requires little-to-no human or (AI) intervention and does not waste time prioritizing tasks and requests by their urgency or level of complexity.
+the party responsible for the scheduling is the CPU itself instead of software or an alternate, more complex job scheduling algorithm.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Priority scheduling is a non-preemptive algorithm and one of the most common scheduling algorithms in batch systems 
+Each process is assigned a priority. Process with highest priority is to be executed first and so on 
+Processes with same priority are executed on first come first served basis
+Priority can be decided based on memory requirements, time requirements or any other resource requirement
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Round Robin is the preemptive process scheduling algorithm.
+Each process is provided a fix time to execute, it is called a quantum
+Once a process is executed for a given time period, it is preempted and other process executes for a given time period
+Context switching is used to save states of preempted processes
