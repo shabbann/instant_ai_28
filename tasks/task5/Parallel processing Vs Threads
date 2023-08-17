@@ -12,3 +12,4 @@ which pretty much says that everything running on that VM stays on the same CPU,
 Though some OS's are capable of migrating a heavy process to another CPU that isn't so busy at the moment, 
 which of course means that the whole process needs to be paused while it is doing that.
 Some operating systems like DragonFlyBSD take a whole different approach to scheduling then what at this moment is the 'standard' approach.
+***C/C++ Languages Now Include Multithreading Libraries***
